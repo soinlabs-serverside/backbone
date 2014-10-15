@@ -1,6 +1,6 @@
 var Backbone    = require('backbone'),
     Router      = require('./routers/router'),
-    $           = require('jquery')
+    $           = require('jquery'),
     Backbone.$  = $;
 
 $(function () {
