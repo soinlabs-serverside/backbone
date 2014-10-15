@@ -38,6 +38,7 @@ Sfotipy.Router = Backbone.Router.extend({
 
     // Load Data
     return $.getJSON('data.json').then(function (data) {
+      console.log(data);
       self.jsonData = data;
 
       for (var name in data) {
